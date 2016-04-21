@@ -1,29 +1,41 @@
-name: Mason Holcomb
-favicon: null
-layout_spectrum: 0.99131
-typography_spectrum: 0.34483
 title: Mason Holcomb
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
-opengraph:
-  image: null
-  type: null
-  appId: null
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
+  saturation: 0.7235365791711956
+  brandStrength: 0.8125
+  rhythmicContrast: 0.4451189415995032
   brandColors:
     - '#ffffff'
     - '#b6b886'
     - '#5a5456'
     - '#84907a'
     - '#4e2a2c'
-  brandStrength: 0.8125
   lightness: 0.8125
-  saturation: 0.7235365791711956
-  rhythmicContrast: 0.44511894159950316
-purpose: []
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+name: Mason Holcomb
+favicon: null
+opengraph:
+  image: null
+  type: null
+  appId: null
+typography_spectrum: 0.34483
+layout_spectrum: 1
